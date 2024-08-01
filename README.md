@@ -8,7 +8,7 @@ A **Magic Square** is an n x n grid filled with distinct integers in such a way 
 
 - **Customizable Size (n)**: Specify the size (n x n) of the magic square.
 - **Initial Integer (i)**: Choose the initial integer to start the series of consecutive integers.
-- **Solver Selection (s)**: Select from various solvers to solve the linear programming problem to generate the magic square.
+- **Solver Selection (s)**: Select a solver to solve the linear programming problem to generate the magic square.
 
 ## Usage example
 
