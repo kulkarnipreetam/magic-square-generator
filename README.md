@@ -15,13 +15,11 @@ A **Magic Square** is an n x n grid filled with distinct integers in such a way 
 To use the magic square solver, you need to provide:
 1. The size of the magic square.
 2. The initial integer in the series of consecutive integers.
-3. The solver to be used for solving the linear program.(Your PC needs to have cplex to use it this option)
+3. The solver to be used for solving the linear program (1 or 2 - Please make sure you have cplex to use option 2).
 
-### Example
+Magic_Square_M(4,2,1)
 
-> Magic_Square_M(4,2,1)
-
-
+![Magic Square](https://github.com/kulkarnipreetam/magic_square_generator/blob/main/Magic_square_output.png)
 
 ## Important Notice
 
