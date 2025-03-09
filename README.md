@@ -2,7 +2,7 @@
 
 ## Introduction
 
-A **Magic Square** is an n x n grid filled with distinct integers in such a way that the sum of the numbers in each row, column, and diagonal is the same. This repository contains code that allows you to generate and solve magic squares using different two solvers. (Your PC needs to have cplex to use it this option)
+A **Magic Square** is an n x n grid filled with distinct integers in such a way that the sum of the numbers in each row, column, and diagonal is the same. This repository contains code that allows you to generate and solve magic squares using different two solvers. (Your PC needs to have cplex to use this option)
 
 ## Features
 
