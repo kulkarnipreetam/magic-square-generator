@@ -1,25 +1,30 @@
-# Magic Squares Solver
+# ✨ Magic Squares Solver
 
-## Introduction
+## 🧩 Introduction
 
-A **Magic Square** is an n x n grid filled with distinct integers in such a way that the sum of the numbers in each row, column, and diagonal is the same. This repository contains code that allows you to generate and solve magic squares using different two solvers. (Your PC needs to have cplex to use this option)
+A **Magic Square** is an `n x n` grid filled with distinct integers such that the sum of the numbers in each row, column, and diagonal is the same.  
+This repository contains Python code to generate and solve magic squares using two solver options.  
+> ⚠️ **Note**: Solver option 2 requires **IBM CPLEX** to be installed on your machine.
 
-## Features
+## 🚀 Features
 
-- **Customizable Size (n)**: Specify the size (n x n) of the magic square.
-- **Initial Integer (i)**: Choose the initial integer to start the series of consecutive integers.
-- **Solver Selection (s)**: Select a solver to solve the linear programming problem to generate the magic square.
+- 🔢 **Customizable Size (n)**: Specify the size (`n x n`) of the magic square.
+- 🔁 **Initial Integer (i)**: Choose the starting integer for the series of consecutive numbers.
+- 🧠 **Solver Selection (s)**: Select which solver to use for solving the linear program:
+  - `1`: Native Python solver
+  - `2`: IBM CPLEX (must be installed separately)
 
-## Usage example
+## 🛠️ Usage Example
 
-To use the magic square solver, you need to provide:
-1. The size of the magic square.
-2. The initial integer in the series of consecutive integers.
-3. The solver to be used for solving the linear program (1 or 2 - Please make sure you have cplex to use option 2).
+To use the magic square solver, provide:
+1. 📏 The size of the magic square
+2. 🔢 The initial integer in the series
+3. 🧠 The solver to be used (`1` or `2`)
 
 Magic_Square_M(4,2,1)
-
-![Magic Square](https://github.com/kulkarnipreetam/magic_square_generator/blob/main/Magic_square_output.png)
+<p align="center">
+  <img src="https://github.com/kulkarnipreetam/magic_square_generator/blob/main/Magic_square_output.png" alt="Magic Square" />
+</p>
 
 ## Important Notice
 
